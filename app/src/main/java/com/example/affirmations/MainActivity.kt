@@ -83,6 +83,11 @@ fun AffirmationsCard(affirmations: Affirmations, modifier: Modifier = Modifier) 
     }
 }
 
+@Composable
+fun AffirmationsList(affirmations: List<Affirmations>){
+
+}
+
 @Preview
 @Composable
 private fun AffirmationsCardPreview(){
